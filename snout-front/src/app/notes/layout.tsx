@@ -1,16 +1,13 @@
 "use client"
 
 import NavBar from "../components/nav-bar";
+import NotesPage from "./page";
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function NotesLayout() {
   return (
-        <div className="flex justify-center items-center">
-          {children}
+        <div className="flex justify-center flex-col items-center">
           <NavBar/>
+          <NotesPage/>
         </div>
   );
 }

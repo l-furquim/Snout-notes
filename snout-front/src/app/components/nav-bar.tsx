@@ -49,8 +49,6 @@ export default function NavBar(){
   
   }
   
-  
-  
   return (
     <div className="flex bg-neutral-800 w-full h-16 justify-center items-center font-bold text-zinc-200">
       {getActualPage()}
